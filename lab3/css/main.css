@@ -1,0 +1,12 @@
+@import url('colors.css');
+@import url('header.css');
+@import url('button.css');
+@import url('body.css');
+@import url('footer.css');
+@import url('media.css');
+@import url('container.css');
+.container{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none
+    }

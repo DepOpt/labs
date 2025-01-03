@@ -1,0 +1,44 @@
+body {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+    max-width: 1200px; /* Для десктопів */
+    margin: 0 auto; /* Центрування */
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+}
+
+html {
+    font-size: 16px; /* Базовий розмір для десктопів */
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
